@@ -117,13 +117,15 @@ scikit-learn
 
 ### Running the Pipeline
 
+The exploratory notebooks (`01`–`03`) can be run independently to visualize individual pipeline stages.
+
 1. Place audio files in `0audio/` organized as `0audio/actor_XX/*.wav`
 2. Run `04_full_pipeline.ipynb` (or `full_program.ipynb`) end-to-end:
    - Processes all audio files through VAD and feature extraction
    - Trains the TDNN for speaker classification
    - Extracts 512-dim x-vector embeddings for each utterance
 
-The exploratory notebooks (`01`–`03`) can be run independently to visualize individual pipeline stages.
+
 
 ---
 
