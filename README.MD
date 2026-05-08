@@ -59,8 +59,6 @@ Raw Audio (.wav)
 | `04_full_pipeline.ipynb` | **Main pipeline.** Processes the full dataset, defines the TDNN model in TensorFlow/Keras, trains for speaker classification, and extracts 512-dim x-vector embeddings. |
 | `XVectorThesis.pdf` | Full thesis paper covering theory, math, and implementation details. |
 
-> **Note:** The current filenames in this repo are `audio.ipynb`, `pre_processing_example.ipynb`, `fbanks.ipynb`, and `full_program.ipynb` respectively.
-
 ---
 
 ## Model Architecture
@@ -134,3 +132,6 @@ The exploratory notebooks (`01`–`03`) can be run independently to visualize in
 - Snyder, D., Garcia-Romero, D., Sell, G., Povey, D., & Khudanpur, S. (2018). *X-vectors: Robust DNN Embeddings for Speaker Recognition.* ICASSP 2018.
 - Snyder, D., Garcia-Romero, D., Povey, D., & Khudanpur, S. (2017). *Deep Neural Network Embeddings for Text-Independent Speaker Verification.* Interspeech 2017.
 - Livingstone, S. R. & Russo, F. A. (2018). *The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS).* Zenodo.
+
+**And I will always give a special thanks to:**
+- Backstrom, T. et. al. (2022), *Introduction to Speech Processing - Introductionto Speech Processing 2dn edition.* https://speechprocessingbook.aalto.fi. 10.5281/zenodo.6821775
